@@ -26,7 +26,7 @@ img{display:block;max-width:100%}
 .brand .dot{width:12px;height:12px;border-radius:50%;background:linear-gradient(135deg,var(--gold2),var(--gold));box-shadow:0 0 10px var(--gold)}
 .langs{display:flex;gap:8px}
 .lang-btn{touch-action:manipulation;display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;border:1px solid rgba(212,175,55,.5);background:transparent;color:var(--txt);padding:5px 14px;border-radius:999px;font-size:.9rem;transition:.25s;font-family:inherit}
-.lang-flag{width:24px;height:24px;flex:0 0 24px;border-radius:50%;object-fit:cover;border:1px solid rgba(255,255,255,.55);box-shadow:0 1px 4px rgba(0,0,0,.35)}
+.lang-flag{display:block;width:24px;height:24px;min-width:24px;min-height:24px;flex:0 0 24px;aspect-ratio:1/1;border-radius:50%;object-fit:cover;object-position:center;overflow:hidden;border:1px solid rgba(255,255,255,.55);box-shadow:0 1px 4px rgba(0,0,0,.35)}
 .lang-btn:hover{background:rgba(212,175,55,.15)}
 .lang-btn.active{background:linear-gradient(135deg,var(--gold3),var(--gold),var(--gold3));color:#161310;font-weight:700;box-shadow:0 0 12px rgba(212,175,55,.5)}
 
