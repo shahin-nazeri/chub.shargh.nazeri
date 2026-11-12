@@ -73,6 +73,9 @@ nav a:hover{color:var(--gold2)}
 /* footer */
 footer{margin-top:auto;border-top:1px solid rgba(212,175,55,.25);background:#0a0908;padding:36px 0;text-align:center}
 footer .phone{font-size:1.15rem;font-weight:800;color:var(--gold2);direction:ltr;unicode-bidi:embed}
+footer .designer-info{display:flex;flex-direction:column;align-items:center;gap:7px;margin:0 auto 18px;color:var(--muted);font-size:.92rem}
+footer .designer-info a{color:var(--gold2);text-decoration:none;direction:ltr;unicode-bidi:embed}
+footer .designer-info a:hover{text-decoration:underline}
 footer .small{color:var(--muted);font-size:.85rem;margin-top:8px}
 footer .copyright{color:var(--muted);font-size:.85rem;margin-top:12px}
 .hidden{display:none!important}
@@ -251,7 +254,12 @@ footer .copyright{color:var(--muted);font-size:.85rem;margin-top:12px}
 
 <footer id="contact">
   <div class="container">
-    <div><span data-i18n="phone_label">شماره تلفن مدیریت: </span><span class="phone">+989154060029</span></div>
+    <div class="designer-info">
+      <div><span data-i18n="designer_label">طراح: </span><span data-i18n="designer_name">شاهین ناظری</span></div>
+      <div><span data-i18n="designer_email_label">ایمیل: </span><a href="mailto:shahin.nazeri.1391@gmail.com">shahin.nazeri.1391@gmail.com</a></div>
+      <div><span data-i18n="designer_phone_label">تلفن: </span><a href="tel:+989940227745">+۹۸ ۹۹۴۰۲۲۷۷۴۵</a></div>
+    </div>
+    <div><span data-i18n="phone_label">تلفن گروه تولیدی چوب شرق ناظری: </span><a class="phone" href="tel:+989154060029">+۹۸ ۹۱۵۴۰۶۰۰۲۹</a></div>
     <div class="small" data-i18n="footer_note">چوب شرق ناظری — طراحی و اجرای پروژه‌های چوبی</div>
     <div class="copyright" data-i18n="copyright">© چوب شرق ناظری،تمامی حقوق محفوظ است.</div>
   </div>
@@ -274,7 +282,8 @@ var I18N = {
     p2_t:"کابینت مینیمال", p2_d:"کابینت‌های مینیمال با خطوط تمیز و رنگ‌بندی آرامش‌بخش",
     p3_t:"کمد دیواری", p3_d:"کمد دیواری سفارشی با بهره‌گیری حداکثری از فضا",
     p4_t:"دیوار چوبی لاکچری", p4_d:"اجرای دیوار چوبی (لامل) با طراحی گرم و شیک",
-    phone_label:"شماره تلفن مدیریت: ",
+    designer_label:"طراح: ", designer_name:"شاهین ناظری", designer_email_label:"ایمیل: ", designer_phone_label:"تلفن: ",
+    phone_label:"تلفن گروه تولیدی چوب شرق ناظری: ",
     footer_note:"چوب شرق ناظری — طراحی و اجرای پروژه‌های چوبی",
     services_title:"خدمات و مهارت‌ها", services_subtitle:"فهرست خدمات قابل ارائه در چوب شرق ناظری",
     toast_lang:"زبان: فارسی"
@@ -292,7 +301,8 @@ var I18N = {
     p2_t:"Minimal Cabinets", p2_d:"Minimal cabinets with clean lines and a calm color palette",
     p3_t:"Wardrobe", p3_d:"Custom wardrobe making the most of every inch of space",
     p4_t:"Luxury Wood Slat Wall", p4_d:"A warm, elegant wood slat (louvered) feature wall",
-    phone_label:"Management Phone: ",
+    designer_label:"Designer: ", designer_name:"Shahin Nazeri", designer_email_label:"Email: ", designer_phone_label:"Phone: ",
+    phone_label:"Chub Shargh Nazeri Production Group Phone: ",
     footer_note:"Chub Shargh Nazari — Design & build of wood projects",
     services_title:"Services & Skills", services_subtitle:"Services offered by Chub Shargh Nazari",
     toast_lang:"Language: English"
